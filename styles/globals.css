@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap');
+
+@theme {
+    --color-prime: #0f172a;
+    --color-gold-500: #d4af37;
+    --color-gold-600: #c5a028;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: white;
+    color: var(--color-prime);
+    margin: 0;
+    padding: 0;
+}
+
+/* Helper Classes */
+.bg-prime { background-color: var(--color-prime); }
+.text-prime { color: var(--color-prime); }
+.text-gold-500 { color: var(--color-gold-500); }
+.bg-gold-500 { background-color: var(--color-gold-500); }
