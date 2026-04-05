@@ -12,7 +12,7 @@ let connectionStatus = "מנותק";
 
 // יצירת הבוט של איילת עם הגדרות אופטימליות
 const client = new Client({
-    authStrategy: new LocalAuth(), // שומר את הסשן בתיקיית .wwebjs_auth
+    authStrategy: new LocalAuth(),
     puppeteer: {
         headless: true,
         args: [
